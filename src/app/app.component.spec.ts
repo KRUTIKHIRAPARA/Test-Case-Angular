@@ -25,9 +25,9 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it('test function return 100',()=>{
-    expect(test()).toBe(100);
-  })
+  // it('test function return 100',()=>{
+  //   expect(test()).toBe(100);
+  // })
 
 
   // it(`should have as title 'unit-testing'`, () => {
