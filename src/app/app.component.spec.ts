@@ -2,8 +2,11 @@ import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { UsersComponent } from './users/users.component';
+import { test } from '"./app.component"';
 
 describe('AppComponent', () => {
+
+
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
@@ -22,9 +25,9 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  // it('test function return 100',()=>{
-  //   expect(test()).toBe(100);
-  // })
+  it('test function return 100',()=>{
+    expect(test()).toBe(100);
+  })
 
 
   // it(`should have as title 'unit-testing'`, () => {
